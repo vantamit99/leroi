@@ -1,0 +1,32 @@
+.brands {
+    display: flex;
+}
+.brands .title {
+    width: 20%;
+    & > span:first-child {
+        display: block;
+    }
+}
+.brands__list {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.brands__item {
+    width: calc(100% / 5);
+
+    .brands__image {
+        display: inline-block;
+        height: 75px;
+        overflow: hidden;
+        &:hover img {
+            transform: scale(1.1);
+            transition: all 1s;
+        }
+    }
+    img {
+        transition: all 1s;
+        width: 100%;
+        object-fit: cover;
+    }   
+}

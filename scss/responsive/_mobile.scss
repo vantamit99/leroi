@@ -1,0 +1,88 @@
+@media (max-width: 590px) {
+    .mobile__item--dropdown > ol {
+        padding: 0;
+    }
+    .mobile__item--dropdown .dropdown ol {
+        padding-left: 12px;
+    }
+    .secTalkSolution__first {
+        .flex {
+            flex-wrap: wrap;
+            .item {                
+                width: 100% !important;
+            }
+        }        
+    }   
+    .secTalkSolution__sub .flex .item:last-child {
+        padding: 0;
+    }
+    .secWays__title {
+        font-size: 30px;
+    }
+    .secWays__des,
+    .secTalkSolution__first p {
+        font-size: 19px;
+    }
+    .ways > .title,
+    .generalFlex__item .item__title,
+    .secTalkSolution__first h1,
+    .secTalkSolution__second .item__title,
+    .secMenuPageDetails > .container > .title,
+    .secSolving .titleTwo {
+        font-size: 25px;
+    }
+    .secTalkSolution__second .item__icon {
+        font-size: 60px;
+    }
+    .generalFlex__item .item__icon i,
+    .generalFlex__item .item__image img
+     {
+        font-size: 85px;
+    }
+    .contactMe__item h1,
+    .blogPost__list .item:last-child > h1 a {
+        font-size: 20px;
+    }
+    .contactMe__item a {
+        font-size: 16px;
+        min-width: auto;
+    }
+    .secSolving .titleOne {
+        font-size: 21px;
+    }
+    .solving__item .flex {
+        flex-wrap: wrap;
+    }
+    .solving__item .item {
+        width: 100%;
+        padding: 0;
+    }
+    .blogPost__list .item:first-child > div {
+        width: 100px;
+    }
+}
+@media (max-width: 425px) {
+    .contactMe {
+        padding: 30px 0;
+    }
+    .blogPost__list .item:first-child > div {
+        width: 80px;
+    }
+    .contactMe__item h1, .blogPost__list .item:last-child > h1 a {
+        font-size: 15px;
+    }
+    .blogPost__list .item:last-child > div > span {
+        font-size: 14px;
+    }
+}
+@media (max-width: 320px) {
+    .container {
+        padding: 0 20px;
+    }
+    .blogPost__title .item:first-child i {
+        font-size: 50px;
+    }
+    .blogPost__list .item:first-child > div {
+        width: 70px;
+    }
+}

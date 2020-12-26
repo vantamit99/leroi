@@ -1,0 +1,95 @@
+@media (max-width: 1024px) {
+    header {
+        position: relative;
+    }
+    header .header__flex > .item:first-child,
+    header .header__flex .menu {
+        display: none;
+    }
+    .mobile__bars, 
+    .mobile__logo {
+        display: block;
+    }
+    header .header__flex > .item:nth-child(2) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        
+    }
+}
+@media (max-width: 790px) {
+    .section__barnner {
+        height: 100vh;
+    }
+    .section__barnner .intro {
+        top: 50%;
+        width: 90%;
+    }
+    .solution__item {
+        width: calc(100%/2 - 20px + 20px/2);
+
+        &:nth-child(2n) {
+            margin-right: 0;
+        }
+    }
+    .brands {
+        flex-wrap: wrap;
+        .title, .brands__list {
+            width: 100%;
+            justify-content: center;
+        }
+        .brands__item {
+            width: auto;
+            margin: 10px 30px;
+        }
+    }
+    
+    .footer__flex {
+        flex-wrap: wrap;
+    }
+    .footer__item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .solution__item {
+        width: 100%;
+        margin-right: 0;
+    }
+    .generalFlex__item {
+        width: 100%;
+    }
+    .contactMe__item:first-child {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .blogPost__list .item:last-child {
+        max-width: 500px;
+    }
+    .secTalkSolution__second {
+        .flex {
+            flex-wrap: wrap;
+            .item {
+                width: 100% !important;
+                margin-bottom: 20px;
+            }
+        }        
+    }   
+    .secTalkSolution__first {
+        .flex {
+            flex-wrap: wrap;
+            .item {
+                margin-bottom: 20px;
+                &:first-child {
+                    width: 40%;                    
+                }
+                &:last-child {
+                    width: 60%;                    
+                }
+            }
+        }        
+    }   
+}

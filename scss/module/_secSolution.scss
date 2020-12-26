@@ -1,0 +1,57 @@
+// === section solution === //
+.solution {
+
+}
+.solution__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.solution__item {
+    box-sizing: border-box;
+    padding: 60px 20px;
+    width: calc(100% / 4 - 20px + 20px/4);
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    &:hover {
+        box-shadow: 0 0 20px 1px rgba(0,0,0,.2);
+    }
+
+    &:nth-child(4n) {
+        margin-right: 0;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .solution__icon {
+        margin-bottom: 20px;
+        i {
+            color: rgb(44, 91, 169);
+        }  
+    }
+    .solution__name {        
+        h1 {
+            color: #023182;
+            font-weight: 500;
+            line-height: 35px;
+            letter-spacing: 1px;
+        }
+    }
+    .solution__iconName, 
+    .solution__more {
+        text-align: center;
+    }
+    .solution__more {
+        margin-top: 40px;
+        a {           
+            color: #2c5ba9;           
+            font-size: 18px;
+        }
+    }
+}
